@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+
+    <style>
+        body {
+          
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 500px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+          
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Job Application Form</h2>
+
+        <form>
+
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter your full name">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Phone Number:</label>
+            <input type="tel" placeholder="Enter your phone number"><br><br>
+
+            <label>Gender:</label><br><br>
+
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+
+            <br><br>
+
+            <label>Skills:</label><br><br>
+
+            <input type="checkbox"> HTML<br>
+            <input type="checkbox"> CSS<br>
+            <input type="checkbox"> JavaScript<br>
+            <input type="checkbox"> Python<br>
+            <input type="checkbox"> Java
+
+            <br><br>
+
+            <label>Resume Upload:</label>
+            <input type="file">
+
+            <button type="submit" class="submit-btn">
+                Submit
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

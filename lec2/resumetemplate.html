@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+body{
+    background:#f4f4f4;
+    padding:30px;
+}
+
+.resume{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:40px 60px;
+}
+
+header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+header h1{
+    font-size:70px;
+    margin-bottom:15px;
+}
+
+.contact,
+.social{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    font-size:20px;
+    margin:10px 0;
+}
+
+.contact i,
+.social i{
+    margin-right:5px;
+}
+
+section{
+    margin-top:35px;
+}
+
+section h2{
+    color:#141c69;
+    font-size:32px;
+    border-bottom:2px solid #7a7fb8;
+    padding-bottom:5px;
+    margin-bottom:15px;
+}
+
+.item{
+    margin-bottom:20px;
+}
+
+.item h3{
+    font-size:24px;
+    margin-bottom:5px;
+}
+
+ul{
+    margin-left:25px;
+}
+
+ul li{
+    font-size:20px;
+    line-height:1.6;
+    margin-bottom:5px;
+}
+
+p{
+    font-size:20px;
+    line-height:1.6;
+}
+
+@media(max-width:768px){
+
+    .resume{
+        padding:20px;
+    }
+
+    header h1{
+        font-size:45px;
+    }
+
+    .contact,
+    .social{
+        font-size:15px;
+    }
+
+    section h2{
+        font-size:24px;
+    }
+
+    ul li,
+    p,
+    .item h3{
+        font-size:16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <header>
+        <h1>Your Name</h1>
+
+        <div class="contact">
+            <span><i class="fa-regular fa-envelope"></i> your.email@example.com</span>
+            <span>|</span>
+            <span><i class="fa-solid fa-phone"></i> Your Phone Number</span>
+            <span>|</span>
+            <span><i class="fa-solid fa-location-dot"></i> Your Location</span>
+        </div>
+
+        <div class="social">
+            <span><i class="fa-brands fa-github"></i> GitHub Username</span>
+            <span>|</span>
+            <span><i class="fa-brands fa-linkedin"></i> LinkedIn Username</span>
+        </div>
+    </header>
+
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li><strong>MCA</strong>, XYZ College</li>
+            <li><strong>Bca</strong>, ABC College</li>
+            <li><strong>Higher Secondary</strong>, School Name</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience and Internship</h2>
+
+        <div class="item">
+            <h3>Web Development Intern – Company Name</h3>
+            <ul>
+                <li>Developed responsive web pages using HTML, CSS and JavaScript.</li>
+                <li>Worked with team members on live projects.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3>Java Intern – Organization Name</h3>
+            <ul>
+                <li>Built Java-based applications and learned OOP concepts.</li>
+                <li>Worked with MySQL databases.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <div class="item">
+            <h3>Online Examination System</h3>
+            <ul>
+                <li>Web application for conducting online exams.</li>
+                <li>Technologies: HTML, CSS, JavaScript, PHP, MySQL.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3>Event Management System</h3>
+            <ul>
+                <li>System to manage events and registrations.</li>
+                <li>Technologies: HTML, CSS, Bootstrap, MySQL.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming:</strong> Java, Python</li>
+            <li><strong>Web Development:</strong> HTML, CSS, JavaScript, Bootstrap</li>
+            <li><strong>Database:</strong> MySQL, SQL</li>
+            <li><strong>Tools:</strong> VS Code, Eclipse, GitHub</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Achievements</h2>
+        <ul>
+            <li>Completed Web Development Certification.</li>
+            <li>Participated in Hackathons and Coding Competitions.</li>
+            <li>Successfully developed academic projects.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Declaration</h2>
+        <p>
+            I hereby declare that all the information provided above is true and correct to the best of my knowledge.
+        </p>
+    </section>
+
+</div>
+
+</body>
+</html>
