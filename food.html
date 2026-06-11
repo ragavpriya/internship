@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Menu</title>
+<link rel="icon" href="food.png"> 
+
+<style>
+
+*{
+   
+    box-sizing:border-box;
+  
+}
+
+body{
+    background:
+    
+    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:white;
+}
+
+
+header{
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:60px;
+    color:#ffcc00;
+}
+
+header p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+
+
+.categories{
+    text-align:center;
+    margin:20px;
+}
+
+.categories button{
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    border-radius:20px;
+    background:#ff6600;
+    color:white;
+    cursor:pointer;
+}
+
+.categories button:hover{
+    background:#ffcc00;
+    color:black;
+}
+
+
+
+.menu-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:30px;
+}
+
+.card{
+    width:280px;
+    background:rgba(10, 1, 1, 0.1);
+    backdrop-filter:blur(20px);
+    border:3px solid transparent;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.4s;
+}
+
+
+
+.card:hover{
+    transform:translateY(-12px);
+    border-color:#f5cd06ed;
+    box-shadow:0 10px 25px rgba(153, 153, 53, 0.7);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:15px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#ddd;
+    margin-bottom:15px;
+}
+
+
+
+.price{
+    background:#ff6600;
+    display:inline-block;
+    padding:8px 15px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🍽 Royal Restaurant</h1>
+    <p>Delicious Food • Great Taste • Happy Moments</p>
+</header>
+
+<div class="categories">
+    <button>Starters</button>
+    <button>Main Course</button>
+    <button>Desserts</button>
+    <button>Beverages</button>
+</div>
+
+<div class="menu-container">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38">
+        <div class="card-content">
+            <h3>Cheese Pizza</h3>
+            <p>Freshly baked pizza with extra cheese.</p>
+            <span class="price">₹299</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+        <div class="card-content">
+            <h3>Burger</h3>
+            <p>Juicy burger loaded with vegetables.</p>
+            <span class="price">₹199</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/9d/a5/ee/9da5eecee4de8a78c238279de5e70d85.jpg">
+        <div class="card-content">
+            <h3>Grilled Chicken</h3>
+            <p>Spicy grilled chicken served hot.</p>
+            <span class="price">₹399</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://thumbs.dreamstime.com/b/refreshing-fruit-juices-splashing-glasses-dark-background-two-fresh-juice-one-orange-red-dramatically-against-black-349431592.jpg?w=992">
+        <div class="card-content">
+            <h3>Fresh Juice</h3>
+            <p>Healthy and refreshing fruit juice.</p>
+            <span class="price">₹99</span>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Royal Restaurant | Taste the Best</p>
+</footer>
+
+</body>
+</html>
